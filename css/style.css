@@ -1,0 +1,992 @@
+/*************************************
+fileName :css/style.css
+Template Name: Ice-Cube - Personal/Company Portfolio HTML Template 
+Template URI:
+Description:This is HTML5 Template
+Author: Radwan Ahmed
+Author URI:https://themeforest.net/user/infinity_web
+Version: 1.0
+Design and Developed by: Infinity_web
+
+****************************************/
+
+
+/*================================================
+            Table of contents  / CSS Index
+==================================================
+
+1. Global SECTION
+2. PRELOADER
+3. NAVBAR PART
+4.HOME SECTION 
+5. ABOUT SECTION 
+6.SERVICE SECTION
+7.PROTFOLIO SECTION 
+8.skill SECTION
+9.TESTMONIAL SECTION
+10. Contact SECTION
+11.google map
+12.footer AREa
+13.back to scroll top
+
+/*================================================
+             1. Global SECTION
+==================================================*/
+
+a {
+    font-family: "Signika", sans-serif;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Signika", sans-serif;
+}
+
+h1 {
+    font-family: "Signika", sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+h2 {
+    font-family: "Signika", sans-serif;
+}
+
+h3 {
+    font-family: "Signika", sans-serif;
+}
+
+h4 {
+    font-family: "Signika", sans-serif;
+}
+
+h5 {
+    font-family: "Signika", sans-serif;
+}
+
+h6 {
+    font-family: "Signika", sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #000;
+    color: #fff;
+    background-color: #fff;
+    width: 80px;
+}
+
+
+/*===============
+                2.preloader
+                ======================*/
+
+#ud_preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+
+#ud_preloader .ud_pre_half {
+    background-color: #111;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+#ud_preloader #ud_bg_left {
+    left: 0;
+}
+
+#ud_preloader #ud_bg_right {
+    right: 0;
+}
+
+#ud_preloader #ud_dots {
+    z-index: 10001;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+
+#ud_preloader #ud_dots p {
+    width: 100%;
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+#ud_preloader #ud_dots .ud_dot {
+    animation: infinite 500ms ease-in-out;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#ud_preloader #ud_dots .ud_dot:last-child {
+    margin: 0 0 0 0;
+}
+
+@keyframes ud_preloader_1 {
+    0% {
+        background: #fff;
+        transform: translateY(0);
+    }
+    25% {
+        background: #ff6600;
+        transform: translateY(-5px);
+    }
+    50% {
+        background: #fff;
+        transform: translateY(0);
+    }
+}
+
+@keyframes ud_preloader_2 {
+    25% {
+        background: #fff;
+        transform: translateY(0);
+    }
+    50% {
+        background: #ff6600;
+        transform: translateY(-5px);
+    }
+    75% {
+        background: #fff;
+        transform: translateY(0);
+    }
+}
+
+@keyframes ud_preloader_3 {
+    50% {
+        background: #fff;
+        transform: translateY(0);
+    }
+    75% {
+        background: #ff6600;
+        transform: translateY(-5px);
+    }
+    100% {
+        background: #fff;
+        transform: translateY(0);
+    }
+}
+
+@keyframes ud_preloader_4 {
+    75% {
+        background: #fff;
+        transform: translateY(0);
+    }
+    100% {
+        background: #ff6600;
+        transform: translateY(-5px);
+    }
+    25% {
+        background: #fff;
+        transform: translateY(0);
+    }
+}
+
+
+/* <!--============== 3.NAVBAR PART ===============-->*/
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 10px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFC814;
+    font-weight: 600;
+}
+
+.brand_12 {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+    background-color: #DBDBDB;
+    border-radius: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #DBDBDB;
+    border-radius: 20px;
+    color: #000;
+}
+
+.navbar-nav > li > a {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #ddd;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+/*  <!--=====
+----------------4.HOME SECTION -----------------
+=====-->*/
+
+   #home {
+    background-image: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, 0)), url(../image/IMG_2724.JPG);
+    background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+/*  <!--===== header-text-part =====-->*/
+
+.header-text-part {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.typing-text {
+     text-align: left;
+}
+
+.typing-text h2 {
+    font-size: 50px;
+    color: #fff;
+    margin-top: 100px;
+   
+}
+
+.typing-text p {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/*   <!--======
+-----------       5. ABOUT SECTION ----------------------
+                 =====-->*/
+
+#about {
+    padding: 70px;
+    background-image: url(../image/back1-min.jpeg);
+}
+
+.about-heading h1 {
+    text-transform: uppercase;
+}
+
+.about-img {
+    position: relative;
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+    margin: 2%;
+    overflow: hidden;
+    width: 500px;
+    background-size: cover;
+}
+
+.about-img img {
+    height: 320px;
+    width: 500px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.about-img:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.about-text {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.about-text p {
+    color: #000;
+    font-size: 14px;
+}
+
+.resume_button {
+    float: left;
+    margin-top: 40px;
+}
+
+.resume_button a {
+    text-decoration: none;
+}
+
+.CV-button {
+    background-color: #fff;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+}
+
+.CV-button:hover {
+    background-color: #000;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #000;
+    color: #fff;
+    transition: .5s;
+}
+
+.hire-button {
+    margin-top: 40px;
+    float: left;
+}
+
+.hire-button a {
+    text-decoration: none;
+}
+
+.hire-me-button {
+    background-color: #fff;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #000;
+    color: #000;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.hire-me-button:hover {
+    background-color: #000;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #000;
+    color: #fff;
+    transition: .5s;
+}
+
+
+/*<!--============== 
+ ----------------- 6.SERVICE SECTION -----------------------
+                 ===============-->*/
+
+#service {
+    padding: 70px;
+    background-color: #fff;
+}
+
+.service-headeing h1 {
+    color: #000000;
+    font-family: "Signika", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.hexagon {
+    position: relative;
+    width: 250px;
+    height: 144.34px;
+    background-color: #222629;
+    margin: 72.17px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 72.17px solid #222629;
+    z-index: 1;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 72.17px solid #222629;
+}
+
+.service-icon i {
+    margin-left: 110px;
+    background-color: #ffffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 12px;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.service-icon i:hover {
+    margin-left: 110px;
+    background-color: #000000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 12px;
+    color: #fff;
+    border: 1px solid #ffffff;
+    transition: .5s;
+}
+
+.service-Text {
+    text-align: center;
+}
+
+.service-Text h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.service-Text p {
+    color: #fff;
+}
+
+
+/*<!--============== 
+----------------- 7.PROTFOLIO SECTION -------------------------
+                  ===============-->*/
+
+#protfolio {
+    padding: 70px;
+    background-image: url(../image/back1-min.jpeg);
+}
+
+.protfolio-heading h1 {
+    text-transform: uppercase;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: #ffffff;
+    border: 1px solid #222629;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #222629;
+    color: #fff;
+    outline: none
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #222629;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+
+/* ---- button-group ---- */
+
+.button-group .button {
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+
+/* clear fix */
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ---- .element-item ---- */
+
+.element-item {
+    position: relative;
+    float: left;
+    width: 33%;
+    color: #262524;
+    border: 10px solid #DCDCEB;
+    overflow: hidden;
+}
+
+.element-item img {
+    width: 100%;
+    height: 260px;
+}
+
+.isotope-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+    transform: scale(1);
+}
+
+.element-item:hover .isotope-overlay {
+    opacity: 1;
+    transform: scale(1.2);
+    opacity: .8;
+}
+
+.isotope-overlay h4 {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.isotope-overlay a {
+    color: black;
+    margin-top: 50px;
+}
+
+.isotope-overlay i {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+
+
+/* <!--============== 
+               8.TEAM SECTION
+            ===============-->*/
+
+#skill {
+    padding: 70px;
+    background: url(../image/skill-banner.png)repeat 100% fixed;
+    background-size: cover;
+}
+
+.skill-heading h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.skill-item {
+    margin-top: 30px;
+}
+
+.skill-details {
+    height: 140px;
+    width: 140px;
+    background-color: #D6D6D6;
+    border-radius: 50%;
+   
+}
+
+.skill-overlay {
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+    color: white;
+    box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, .8);
+}
+
+.skill-details h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 55px;
+    color: #000000;
+}
+
+.skill-details:hover .skill-overlay {
+    opacity: 1;
+    margin-left: 15px;
+}
+
+.skill-overlay h4 {
+    font-size: 40px;
+}
+
+
+/*<!--============== 
+----------------- 9.TESTMONIAL SECTION ---------------
+                    ===============-->*/
+
+#testmonial {
+    padding: 70px;
+    background-color: #fff;
+}
+
+.testmonial-heading h1 {
+    text-transform: uppercase;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background: none;
+    width: 25px;
+}
+
+.carousel-control.left {
+    left: -25px;
+}
+
+.carousel-control.right {
+    right: -25px;
+}
+
+.block-text {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #2c2222;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 27px;
+    padding: 15px 18px;
+}
+
+.block-text a {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 21px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.mark {
+    padding: 12px 0;
+    background: none;
+}
+
+.block-text p {
+    color: #585858;
+    font-family: Georgia;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.sprite {
+    background-size: cover;
+}
+
+.sprite-i-triangle {
+    background-position: 0 -1298px;
+    height: 44px;
+    width: 50px;
+}
+
+.block-text ins {
+    bottom: -44px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.block {
+    display: block;
+}
+
+.zmin {
+    z-index: 1;
+}
+
+.ab {
+    position: absolute;
+}
+
+.person-text {
+    padding: 10px 0 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.person-text a {
+    color: #000000;
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.person-text i {
+    color: #fff;
+    font-family: Georgia;
+    font-size: 13px;
+}
+
+.rel {
+    position: relative;
+}
+
+.person-text img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+/*<!--============== 
+                TESTMONIAL SECTION  end
+                ===============-->*/
+
+
+/*<!--================= 
+               10. Contact SECTION  Start
+                    ===============-->*/
+
+#contact {
+    padding: 70px;
+    background-image: url(../image/back1-min.jpeg);
+    background-size: cover
+}
+
+.contact-haeding h1 {
+    text-transform: uppercase;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 3px 3px #000;
+}
+
+.Name-form {
+    height: 40px;
+    width: 480px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px #000;
+}
+
+.Email-form {
+    margin-top: 20px;
+    height: 40px;
+    width: 480px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px #000;
+}
+
+.comment-box {
+    margin-top: 20px;
+    height: 100px;
+    width: 480px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px #000;
+}
+
+.submit-button {
+    padding: 10px 25px 10px 25px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000;
+    font-family: "Signika", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+    transform: scale(1);
+    transition: .6s;
+}
+
+.submit-button:hover {
+    padding: 10px 25px 10px 25px;
+    background-color: #000;
+    border: 1px solid #000000;
+    color: #fff;
+    font-family: "Signika", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+    transform: scale(1.1);
+    transition: .6s;
+}
+
+.author-adress {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 3px 3px #000000;
+}
+
+.single-address {
+    color: #000;
+}
+
+.single-address p {
+    margin-left: 30px;
+}
+
+.single-address i {
+    float: left;
+    margin-right: 20px;
+    color: #000;
+}
+
+.social-link-part {
+    margin-top: 30px;
+}
+
+.social-link-part i {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transform: scale(1);
+    transition: .6s;
+}
+
+.social-link-part i:hover {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transform: scale(1.2);
+    transition: .6s;
+}
+
+.fa-facebook {
+    background-color: #405FA2;
+    padding: 13px;
+}
+
+.fa-twitter {
+    background-color: #27AAE2;
+    padding: 13px;
+}
+
+.fa-linkedin {
+    background-color: #017FB1;
+    padding: 13px;
+}
+
+.fa-google-plus {
+    background-color: #E12F2F;
+    padding: 13px;
+}
+
+.fa-skype {
+    background-color: #7CE5F3;
+    padding: 13px;
+}
+
+.fa-youtube {
+    background-color: #CF2200;
+    padding: 13px;
+}
+
+
+/*==============
+               11.google map
+              ============*/
+
+#googleMap {
+    height: 400px;
+    width: 100%;
+}
+
+
+/*===============
+                        12.footer
+                        ============*/
+
+#footer {
+    background-color: #222629;
+    padding: 20px;
+}
+
+#footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/*=================
+                        13 .back to scroll top 
+                        ===============*/
+
+.scrollup {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 25px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url('../image/scroll.jpg') no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,1239 @@
+ @media (min-width: 240px) and (max-width: 319px) {
+    #home {
+    background-image: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, 0)), url(../image/banner-top.jpg);
+    background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+    height: 670px;
+    width: 100%;
+}
+     .typing-text {
+         margin-left: 0px;
+     }
+     #ud_preloader #ud_dots {
+         z-index: 10001;
+         width: 150px;
+         position: absolute;
+         top: 50%;
+         left: 25%;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+     }
+     .about-img {
+         position: relative;
+         box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+         margin: 2%;
+         overflow: hidden;
+         width: 180px;
+         height: 200px;
+         background-size: cover;
+         margin-left: -20px;
+     }
+     .resume_button {
+         float: left;
+         margin-top: 40px;
+     }
+     .resume_button a {
+         text-decoration: none;
+     }
+     .CV-button {
+         background-color: #fff;
+         padding: 10px 25px 10px 25px;
+         border: 1px solid #000;
+         color: #000;
+         font-weight: bold;
+         font-size: 12px;
+     }
+     .CV-button:hover {
+         background-color: #000;
+         padding: 10px 25px 10px 25px;
+         border: 1px solid #000;
+         color: #fff;
+         transition: .5s;
+     }
+     .hire-button {
+         margin-top: 40px;
+         float: left;
+     }
+     .hire-button a {
+         text-decoration: none;
+     }
+     .hire-me-button {
+         background-color: #fff;
+         padding: 10px 25px 10px 25px;
+         border: 1px solid #000;
+         color: #000;
+         margin-left: 30px;
+         font-weight: bold;
+         font-size: 12px;
+     }
+     .hire-me-button:hover {
+         background-color: #000;
+         padding: 10px 25px 10px 25px;
+         border: 1px solid #000;
+         color: #fff;
+         transition: .5s;
+     }
+     /*<!--============== 
+ ----------------- SERVICE SECTION-----------------------
+                 ===============-->*/
+     .hexagon {
+         position: relative;
+         width: 250px;
+         height: 144.34px;
+         background-color: #222629;
+         margin: 92.17px 0;
+         margin-left: -60px;
+     }
+     /*<!--============== 
+----------------- PROTFOLIO SECTION-------------------------
+                  ===============-->*/
+     .element-item {
+         position: relative;
+         float: left;
+         width: 100%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+         height: 150px;
+     }
+     .isotope-overlay i {
+         color: black;
+         background-color: white;
+         height: 30px;
+         width: 30px;
+         padding: 8px;
+         border-radius: 50%;
+         margin-top: 15px;
+     }
+     /* <!--============== 
+    --------------skill SECTION---------------------
+
+               ===============-->*/
+     .skill-overlay {
+    
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+    color: white;
+     box-shadow: 0px 0px 2px 2px rgba(255,255,255,.8);
+}
+ 
+     /*<!--============== 
+                Contact SECTION  Start
+               ===============-->*/
+     .contact-form {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000;
+         width: 220px;
+         margin-left: -45px;
+     }
+     .Name-form {
+         height: 40px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .Email-form {
+         margin-top: 20px;
+         height: 40px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .comment-box {
+         margin-top: 20px;
+         height: 100px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .author-adress {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000000;
+         width: 220px;
+         margin-left: -45px;
+         margin-top: 15px;
+     }
+     /*google map*/
+     #googleMap {
+         height: 400px;
+         width: 100%;
+     }
+     /*scroll top*/
+     .scrollup {
+         width: 30px;
+         height: 30px;
+         opacity: 0.3;
+         position: fixed;
+         bottom: 25px;
+         right: 20px;
+         display: none;
+         text-indent: -9999px;
+         background: url('../image/scroll.jpg') no-repeat;
+         background-size: cover;
+         margin-left: 20px;
+     }
+ }
+ 
+ @media (min-width: 320px) and (max-width: 374px) {
+     .typing-text {
+         margin-left: 0px;
+     }
+     #ud_preloader #ud_dots {
+         z-index: 10001;
+         width: 150px;
+         position: absolute;
+         top: 50%;
+         left: 25%;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+     }
+     .about-img {
+         position: relative;
+         box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+         margin: 2%;
+         overflow: hidden;
+         width: 200px;
+         height: 200px;
+         background-size: cover;
+         margin-left: -23px;
+     }
+     /*<!--============== 
+ ----------------- SERVICE SECTION-----------------------
+                 ===============-->*/
+     .hexagon {
+         position: relative;
+         width: 250px;
+         height: 144.34px;
+         background-color: #222629;
+         margin: 92.17px 0;
+         margin-left: -50px;
+     }
+     /*<!--============== 
+----------------- PROTFOLIO SECTION-------------------------
+                  ===============-->*/
+     .element-item {
+         position: relative;
+         float: left;
+         width: 100%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+     }
+     .element-item {
+         position: relative;
+         float: left;
+         width: 100%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+         height: 150px;
+     }
+     .isotope-overlay i {
+         color: black;
+         background-color: white;
+         height: 30px;
+         width: 30px;
+         padding: 8px;
+         border-radius: 50%;
+         margin-top: 15px;
+     }
+     /* <!--============== 
+    --------------Skill SECTION---------------------
+
+               ===============-->*/
+    .skill-overlay {
+    
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+    color: white;
+     box-shadow: 0px 0px 2px 2px rgba(255,255,255,.8);
+}
+ 
+     /*<!--============== 
+                Contact SECTION  Start
+               ===============-->*/
+     .contact-form {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000;
+         width: 220px;
+         margin-left: -37px;
+     }
+     .Name-form {
+         height: 40px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .Email-form {
+         margin-top: 20px;
+         height: 40px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .comment-box {
+         margin-top: 20px;
+         height: 100px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .author-adress {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000000;
+         width: 220px;
+         margin-left: -37px;
+         margin-top: 15px;
+     }
+     /*google map*/
+     #googleMap {
+         height: 400px;
+         width: 100%;
+     }
+     /*scroll top*/
+     .scrollup {
+         width: 30px;
+         height: 30px;
+         opacity: 0.3;
+         position: fixed;
+         bottom: 25px;
+         right: 20px;
+         display: none;
+         text-indent: -9999px;
+         background: url('../image/scroll.jpg') no-repeat;
+         background-size: cover;
+         margin-left: 20px;
+     }
+ }
+ 
+ @media (min-width: 375px) and (max-width: 479px) {
+     #ud_preloader #ud_dots {
+         z-index: 10001;
+         width: 150px;
+         position: absolute;
+         top: 50%;
+         left: 35%;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+     }
+     .about-img {
+         position: relative;
+         box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+         margin: 2%;
+         overflow: hidden;
+         width: 200px;
+         background-size: cover;
+         margin-left: -8px;
+     }
+     /*<!--============== 
+ ----------------- SERVICE SECTION-----------------------
+                 ===============-->*/
+     .hexagon {
+         position: relative;
+         width: 250px;
+         height: 144.34px;
+         background-color: #222629;
+         margin: 92.17px 0;
+         margin-left: -30px;
+     }
+     /*<!--============== 
+----------------- PROTFOLIO SECTION-------------------------
+                  ===============-->*/
+     .element-item {
+         position: relative;
+         float: left;
+         width: 100%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+     }
+     /* <!--============== 
+    --------------skill SECTION---------------------
+
+               ===============-->*/
+     .skill-details  {
+    height: 140px;
+    width: 140px;
+   background-color: #D6D6D6;
+    border-radius: 50%;
+ 
+         margin-left: 30px;
+   
+}
+      .skill-overlay {
+    
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+         
+    color: white;
+     box-shadow: 0px 0px 2px 2px rgba(255,255,255,.8);
+}
+     /*<!--============== 
+                Contact SECTION  Start
+               ===============-->*/
+     .contact-form {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000;
+         width: 220px;
+         margin-left: -20px;
+     }
+     .Name-form {
+         height: 40px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .Email-form {
+         margin-top: 20px;
+         height: 40px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .comment-box {
+         margin-top: 20px;
+         height: 100px;
+         width: 150px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .author-adress {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000000;
+         width: 220px;
+         margin-left: -20px;
+     }
+     /*google map*/
+     #googleMap {
+         height: 400px;
+         width: 100%;
+     }
+     /*scroll top*/
+     .scrollup {
+         width: 30px;
+         height: 30px;
+         opacity: 0.3;
+         position: fixed;
+         bottom: 25px;
+         right: 20px;
+         display: none;
+         text-indent: -9999px;
+         background: url('../image/scroll.jpg') no-repeat;
+         background-size: cover;
+         margin-left: 20px;
+     }
+ }
+ 
+ @media (min-width: 480px) and (max-width: 639px) {
+     .typing-text {
+         margin-left: 0px;
+     }
+     #ud_preloader #ud_dots {
+         z-index: 10001;
+         width: 150px;
+         position: absolute;
+         top: 50%;
+         left: 33%;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+     }
+     .about-img {
+         position: relative;
+         box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+         margin: 2%;
+         overflow: hidden;
+         width: 350px;
+         background-size: cover;
+         margin-left: -5px;
+     }
+     /*<!--============== 
+ ----------------- SERVICE SECTION-----------------------
+                 ===============-->*/
+     .hexagon {
+         position: relative;
+         width: 250px;
+         height: 144.34px;
+         background-color: #222629;
+         margin: 92.17px 0;
+         margin-left: 50px;
+     }
+     /*<!--============== 
+----------------- PROTFOLIO SECTION-------------------------
+                  ===============-->*/
+     .element-item {
+         position: relative;
+         float: left;
+         width: 100%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+     }
+     /* <!--============== 
+    --------------TEAM SECTION---------------------
+
+               ===============-->*/
+      .skill-details  {
+    height: 140px;
+    width: 140px;
+   background-color: #D6D6D6;
+    border-radius: 50%;
+ 
+         margin-left: 80px;
+   
+}
+      .skill-overlay {
+    
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 80px;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+         
+    color: white;
+     box-shadow: 0px 0px 2px 2px rgba(255,255,255,.8);
+}
+     /*<!--============== 
+                Contact SECTION  Start
+               ===============-->*/
+     .Name-form {
+         height: 40px;
+         width: 250px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .Email-form {
+         margin-top: 20px;
+         height: 40px;
+         width: 250px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .comment-box {
+         margin-top: 20px;
+         height: 100px;
+         width: 250px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .social-link-part i {
+         margin-right: 0px;
+         height: 30px;
+         width: 30px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1);
+         transition: .6s;
+     }
+     .social-link-part i:hover {
+         margin-right: 0px;
+         height: 30px;
+         width: 30px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1.2);
+         transition: .6s;
+     }
+     .fa-facebook {
+         background-color: #405FA2;
+         padding: 8px;
+     }
+     .fa-twitter {
+         background-color: #27AAE2;
+         padding: 8px;
+     }
+     .fa-linkedin {
+         background-color: #017FB1;
+         padding: 8px;
+     }
+     .fa-google-plus {
+         background-color: #E12F2F;
+         padding: 8px;
+     }
+     .fa-skype {
+         background-color: #7CE5F3;
+         padding: 8px;
+     }
+     .fa-youtube {
+         background-color: #CF2200;
+         padding: 8px;
+     }
+     .author-adress {
+         margin-top: 20px;
+         background-color: #fff;
+         padding: 33px;
+         box-shadow: 0px 0px 3px 3px #000000;
+     }
+     /*google map*/
+     #googleMap {
+         height: 400px;
+         width: 100%;
+     }
+     /*scroll top*/
+     .scrollup {
+         width: 30px;
+         height: 30px;
+         opacity: 0.3;
+         position: fixed;
+         bottom: 25px;
+         right: 20px;
+         display: none;
+         text-indent: -9999px;
+         background: url('../image/scroll.jpg') no-repeat;
+         background-size: cover;
+         margin-left: 20px;
+     }
+ }
+ 
+ @media (min-width: 640px) and (max-width: 767px) {
+     .typing-text {
+         margin-left: 0px;
+     }
+     #ud_preloader #ud_dots {
+         z-index: 10001;
+         width: 150px;
+         position: absolute;
+         top: 50%;
+         left: 35%;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+     }
+     .about-img {
+         position: relative;
+         box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+         margin: 2%;
+         overflow: hidden;
+         width: 450px;
+         background-size: cover;
+         margin-left: -5px;
+     }
+     /*<!--============== 
+ ----------------- SERVICE SECTION-----------------------
+                 ===============-->*/
+     .hexagon {
+         position: relative;
+         width: 250px;
+         height: 144.34px;
+         background-color: #222629;
+         margin: 92.17px 0;
+         margin-left: 100px;
+     }
+     /*<!--============== 
+----------------- PROTFOLIO SECTION-------------------------
+                  ===============-->*/
+     .element-item {
+         position: relative;
+         float: left;
+         width: 50%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+     }
+     /* <!--============== 
+    --------------skill SECTION---------------------
+
+               ===============-->*/
+     .skill-details  {
+    height: 140px;
+    width: 140px;
+   background-color: #D6D6D6;
+    border-radius: 50%;
+ 
+         margin-left: 150px;
+   
+}
+      .skill-overlay {
+    
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+         
+    color: white;
+     box-shadow: 0px 0px 2px 2px rgba(255,255,255,.8);
+}
+     /*<!--============== 
+                Contact SECTION  Start
+               ===============-->*/
+     .Name-form {
+         height: 40px;
+         width: 410px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .Email-form {
+         margin-top: 20px;
+         height: 40px;
+         width: 410px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .comment-box {
+         margin-top: 20px;
+         height: 100px;
+         width: 410px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .social-link-part i {
+         margin-right: 10px;
+         height: 40px;
+         width: 40px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1);
+         transition: .6s;
+     }
+     .social-link-part i:hover {
+         margin-right: 0px;
+         height: 40px;
+         width: 40px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1.2);
+         transition: .6s;
+     }
+     .author-adress {
+         margin-top: 20px;
+         background-color: #fff;
+         padding: 33px;
+         box-shadow: 0px 0px 3px 3px #000000;
+     }
+     /*google map*/
+     #googleMap {
+         height: 400px;
+         width: 100%;
+     }
+     /*scroll top*/
+     .scrollup {
+         width: 30px;
+         height: 30px;
+         opacity: 0.3;
+         position: fixed;
+         bottom: 25px;
+         right: 20px;
+         display: none;
+         text-indent: -9999px;
+         background: url('../image/scroll.jpg') no-repeat;
+         background-size: cover;
+         margin-left: 20px;
+     }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 1023px) {
+     .typing-text {
+         margin-left: 0px;
+     }
+     #ud_preloader #ud_dots {
+         z-index: 10001;
+         width: 150px;
+         position: absolute;
+         top: 50%;
+         left: 38%;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+     }
+     .about-img {
+         position: relative;
+         box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+         margin: 2%;
+         overflow: hidden;
+         width: 540px;
+         background-size: cover;
+     }
+     .about-img img {
+         height: 320px;
+         width: 540px;
+         -moz-transition: all 0.5s;
+         -webkit-transition: all 0.5s;
+         transition: all 0.5s;
+     }
+     .about-text {
+         margin-top: 30px;
+         text-align: left;
+         width: 420px;
+     }
+     /*<!--============== 
+ ----------------- SERVICE SECTION-----------------------
+                 ===============-->*/
+     .hexagon {
+         position: relative;
+         width: 250px;
+         height: 144.34px;
+         background-color: #222629;
+         margin: 92.17px 0;
+         margin-left: 40px;
+         float: left;
+     }
+     /*<!--============== 
+----------------- PROTFOLIO SECTION-------------------------
+                  ===============-->*/
+     .button-group {
+         margin-left: -125px;
+     }
+     .element-item {
+         position: relative;
+         float: left;
+         width: 40%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+     }
+     /* <!--============== 
+    --------------skill SECTION---------------------
+
+               ===============-->*/
+
+      .skill-details  {
+    height: 140px;
+    width: 140px;
+   background-color: #D6D6D6;
+    border-radius: 50%;
+ 
+         margin-left: 280px;
+   
+}
+      .skill-overlay {
+    
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 280px;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+         
+    color: white;
+     box-shadow: 0px 0px 2px 2px rgba(255,255,255,.8);
+}
+     /*<!--============== 
+                testmonial
+               ===============-->*/
+     .tab-width9102 {
+         width: 42%;
+     }
+     .carousel-control .glyphicon-chevron-right,
+     .carousel-control .icon-next {
+         margin-right: 90px;
+     }
+     /*<!--============== 
+                Contact SECTION  Start
+               ===============-->*/
+     .contact-form {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000;
+         width: 560px;
+         margin-top: 100px;
+     }
+     .author-adress {
+         margin-top: 20px;
+         background-color: #fff;
+         padding: 33px;
+         box-shadow: 0px 0px 3px 3px #000000;
+         width: 560px;
+     }
+     .Name-form {
+         height: 40px;
+         width: 500px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .Email-form {
+         margin-top: 20px;
+         height: 40px;
+         width: 500px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .comment-box {
+         margin-top: 20px;
+         height: 100px;
+         width: 500px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .social-link-part i {
+         margin-right: 10px;
+         height: 40px;
+         width: 40px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1);
+         transition: .6s;
+     }
+     .social-link-part i:hover {
+         margin-right: 0px;
+         height: 40px;
+         width: 40px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1.2);
+         transition: .6s;
+     }
+     .author-adress {
+         margin-top: 20px;
+         background-color: #fff;
+         padding: 33px;
+         box-shadow: 0px 0px 3px 3px #000000;
+     }
+     /*google map*/
+     #googleMap {
+         height: 400px;
+         width: 100%;
+     }
+     /*scroll top*/
+     .scrollup {
+         width: 30px;
+         height: 30px;
+         opacity: 0.3;
+         position: fixed;
+         bottom: 25px;
+         right: 105px;
+         display: none;
+         text-indent: -9999px;
+         background: url('../image/scroll.jpg') no-repeat;
+         background-size: cover;
+         margin-left: 20px;
+     }
+ }
+ 
+ @media (min-width: 1024px) and (max-width: 1280px) {
+     .typing-text {
+         margin-left: 350px;
+     }
+     #ud_preloader #ud_dots {
+         z-index: 10001;
+         width: 150px;
+         position: absolute;
+         top: 50%;
+         left: 42%;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+     }
+     .about-img {
+         position: relative;
+         box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, .6);
+         margin: 2%;
+         overflow: hidden;
+         width: 400px;
+         background-size: cover;
+     }
+     .about-img img {
+         height: 320px;
+         width: 400px;
+         -moz-transition: all 0.5s;
+         -webkit-transition: all 0.5s;
+         transition: all 0.5s;
+     }
+     .about-text {
+         text-align: left;
+         width: 420px;
+     }
+     /*<!--============== 
+ ----------------- SERVICE SECTION-----------------------
+                 ===============-->*/
+     .hexagon {
+         position: relative;
+         width: 235px;
+         height: 144.34px;
+         background-color: #222629;
+         margin: 92.17px 0;
+         margin-left: -60px;
+         float: left;
+     }
+     .hexagon:before,
+     .hexagon:after {
+         content: "";
+         position: absolute;
+         width: 0;
+         border-left: 125px solid transparent;
+         border-right: 109px solid transparent;
+     }
+     /*<!--============== 
+----------------- PROTFOLIO SECTION-------------------------
+                  ===============-->*/
+     .button-group {
+         margin-left: -125px;
+     }
+     .element-item {
+         position: relative;
+         float: left;
+         width: 45%;
+         color: #262524;
+         border: 10px solid #DCDCEB;
+         overflow: hidden;
+         left: 440px;
+     }
+     /* <!--============== 
+    --------------skill SECTION---------------------
+
+               ===============-->*/
+          .skill-details  {
+    height: 140px;
+    width: 140px;
+   background-color: #D6D6D6;
+    border-radius: 50%;
+ 
+         margin-left: -50px;
+   
+}
+      .skill-overlay {
+    
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: -50px;
+    right: 0;
+    height: 140px;
+    width: 140px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #222629;
+    border-radius: 10px;
+    padding-top: 30px;
+         
+    color: white;
+     box-shadow: 0px 0px 2px 2px rgba(255,255,255,.8);
+}
+     /*<!--============== 
+                testmonial
+               ===============-->*/
+     .tab-width9102 {
+         width: 44%;
+     }
+     .carousel-control .glyphicon-chevron-right,
+     .carousel-control .icon-next {
+         margin-right: 57px;
+     }
+     /*<!--============== 
+                Contact SECTION  Start
+               ===============-->*/
+     .contact-form {
+         background-color: #fff;
+         padding: 30px;
+         box-shadow: 0px 0px 3px 3px #000;
+         width: 400px;
+         margin-top: 20px;
+     }
+     .author-adress {
+         margin-top: 20px;
+         background-color: #fff;
+         padding: 33px;
+         box-shadow: 0px 0px 3px 3px #000000;
+         width: 400px;
+     }
+     .Name-form {
+         height: 40px;
+         width: 340px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .Email-form {
+         margin-top: 20px;
+         height: 40px;
+         width: 340px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .comment-box {
+         margin-top: 20px;
+         height: 100px;
+         width: 340px;
+         background: #F5F5F5;
+         border: none;
+         border-radius: 5px;
+         padding-left: 10px;
+         outline: none;
+         box-shadow: 0px 0px 1px 1px #000;
+     }
+     .social-link-part i {
+         margin-right: 10px;
+         height: 40px;
+         width: 40px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1);
+         transition: .6s;
+     }
+     .social-link-part i:hover {
+         margin-right: 0px;
+         height: 40px;
+         width: 40px;
+         border-radius: 50%;
+         color: #fff;
+         transform: scale(1.2);
+         transition: .6s;
+     }
+     /*google map*/
+     #googleMap {
+         height: 400px;
+         width: 100%;
+     }
+     /*scroll top*/
+     .scrollup {
+         width: 30px;
+         height: 30px;
+         opacity: 0.3;
+         position: fixed;
+         bottom: 25px;
+         right: 20px;
+         display: none;
+         text-indent: -9999px;
+         background: url('../image/scroll.jpg') no-repeat;
+         background-size: cover;
+         margin-left: 20px;
+     }
+ }
+@media (min-width: 1680px) and (max-width: 1920px) {
+    #home {
+    background-image: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, 0)), url(../image/banner-top.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+    .typing-text h2 {
+    font-size: 50px;
+    color: #fff;
+    margin-top: 245px;
+        margin-left: 100px;
+}
+}
+
+
