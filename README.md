@@ -1,6 +1,6 @@
 #IceCube--LandingPage
 
-Ice-cube is an ultimate onepage HTML template for your online portfolio website! This has easy, clean.Built on Bootstrap 3 with an awesome customized slider. Also, the template source code is easily customizable by any non-tech user.suitable for freelancer, designer, programmer, engineer, online service provider, consultant, lawyer onepage portfolio website.
+>Ice-cube is an ultimate onepage HTML template for your online portfolio website! This has easy, clean.Built on Bootstrap 3 with an awesome customized slider. Also, the template source code is easily customizable by any non-tech user.suitable for freelancer, designer, programmer, engineer, online service provider, consultant, lawyer onepage portfolio website.
 
 #pages
 1.Landing page<br>
